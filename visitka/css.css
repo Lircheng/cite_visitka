@@ -1,0 +1,92 @@
+html {
+    box-sizing: border box;
+    }
+  *,*:after, *:before {
+    box-sizing: inherit;
+    }
+  .container  {
+    display: flex;
+    max-width: 960px;
+    background-color: #B0C4DE;
+    margin: 20px  auto;
+    }
+  .profile {
+    max-width: 350px;
+    background-color: #474545;
+    color: #5F9EA0;
+    }
+  .profile-text {
+    front-size: 13px;
+    line-height: 24.19px;
+    margin-bottom: 50px;
+    }
+  .profile-photo {
+    height: 350px;
+    background-image: url(http://www.isrageo.com/wp-content/uploads/2016/06/350px-Alexander_Tairov.jpg);
+    baground-size: cover;
+    baground-position: top;
+    bagraund-repeat: no-repeat;
+    }
+  .heading {
+    margin:0;
+    pading-bottom: 30px;
+    }
+  .heading-light {
+    color: #AFEEEE;
+    border-bottom: 1px #5F9EA0 dashed;
+    }
+  .profile-info{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 70;
+    }
+  .contacs {
+    margin-bottom: 70px;
+  }
+  .contacts-title {
+    color: #5F9EA0;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    }
+  .contacts-text {
+    padding-left: 24px;
+    color: #5F9EA0;
+    text-decoration: none;
+    padding-left: 24px;
+    line-height: 20px;
+    }
+  .contacts-item {
+    padding-bottom: 24px;
+    padding-top: 24px;
+    border-bottom: 1px #5F9EA0 dashed;
+    }
+  .address {
+    front-style: normal;
+    }
+  .fas {
+    margin-right: 15;
+    }
+  .languages {
+    display: flex;
+  }
+  .language {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #5c5c5c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .language-text {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .language-per {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
