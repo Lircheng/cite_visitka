@@ -16,20 +16,20 @@ html {
     color: #5F9EA0;
     }
   .profile-text {
-    front-size: 13px;
+    font-size: 13px;
     line-height: 24.19px;
     margin-bottom: 50px;
     }
   .profile-photo {
     height: 350px;
     background-image: url(http://www.isrageo.com/wp-content/uploads/2016/06/350px-Alexander_Tairov.jpg);
-    baground-size: cover;
-    baground-position: top;
-    bagraund-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
     }
   .heading {
     margin:0;
-    pading-bottom: 30px;
+    padding-bottom: 30px;
     }
   .heading-light {
     color: #AFEEEE;
@@ -63,7 +63,7 @@ html {
     border-bottom: 1px #5F9EA0 dashed;
     }
   .address {
-    front-style: normal;
+    font-style: normal;
     }
   .fas {
     margin-right: 15;
