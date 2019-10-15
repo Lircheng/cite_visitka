@@ -132,7 +132,9 @@ html {
   box-shadow: 1px 1px 10px rgba(0,0,0,1);
 }
 .resume-wrap {
-  border: 1px solid rgba(168, 168, 168, 0.44)
+  padding: 36px 56px;
+  border: 1px solid rgba(168, 168, 168, 0.44);
+  min-height: 100%;
 }
 .logo {
   display: flex;
