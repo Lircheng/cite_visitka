@@ -5,24 +5,18 @@ html {
   box-sizing: inherit;
   }
   body  {
-  //background-color: #E0FFFF;
     background-color: #708090;
 }
 .container  {
   display: flex;
   justify-content: space-between;
-  max-width: 960px;
-  //background-color: #B0C4DE;
-  //background-color: #E0FFFF;
-  //background-color: #AFEEEE;
+  max-width: 1160px;
   background-color: #708090;  
   margin: 20px  auto;
   }
 .profile {
   flex-basis: 36%;
-  //background-color: #474545;
   background-color: #708090;
-  //color: #5F9EA0;
   color: #AFEEEE;
   box-shadow: 1px 1px 10px rgba(0,0,0,1);
   }
@@ -44,7 +38,6 @@ html {
   text-transform: uppercase;
   }
 .heading-light {
-  //color: #AFEEEE;
   color: #E0FFFF;
   border-bottom: 2px #AFEEEE dashed;
   }
@@ -129,8 +122,7 @@ html {
   margin-left: 20px;
 }
 .resume {
-  padding: 25px 30px;
-  flex-basis: 56%;
+  flex-basis: 60%;
   background-color: #fff;
   box-shadow: 1px 1px 10px rgba(0,0,0,1);
 }
@@ -256,23 +248,43 @@ html {
 }
 .skills-list {
   list-style: none;
-  padding-left: 0;
+  pading left: 0;
 }
 .skills-list_item {
   margin-bottom: 30px;
   font-size: 11px;
   text-transform: uppercase;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .level {
   width: 50%;
   height: 8px;
   border: 1px solid #39383a;
+  position: relative;
 }
 .level:before {
   content: '';
+  position: absolute;
   height: 100%;
   width: 50%;
-  background-color: #fff;
+  background-color: #898989;
+}
+.level_html:before {
+  width: 80%;
+}
+.level_css:before {
+  width: 60%;
+}
+.level_Wordpress:before {
+  width: 50%;
+}
+.level_javascript:before {
+  width: 50%;
+}
+.level_Photoshop:before {
+  width: 60%;
+}
+.level_c:before {
+  width: 40%;
 }
