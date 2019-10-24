@@ -5,19 +5,20 @@ html {
   box-sizing: inherit;
   }
   body  {
-    background-color: #708090;
+  background-color: rgb(94, 100, 100);
+  //background-color: #9ed9e4a1;
 }
 .container  {
   display: flex;
   justify-content: space-between;
   max-width: 1160px;
-  background-color: #708090;  
+  background-color: rgb(94, 100, 100);
   margin: 20px  auto;
   }
 .profile {
   flex-basis: 36%;
-  background-color: #708090;
-  color: #AFEEEE;
+  background-color: #505a5ae8;
+  color:  rgba(175, 238, 238, 0.877) ;
   box-shadow: 1px 1px 10px rgba(0,0,0,1);
   }
 .profile-text {
@@ -39,7 +40,7 @@ html {
   }
 .heading-light {
   color: #E0FFFF;
-  border-bottom: 2px #AFEEEE dashed;
+  border-bottom: 1px #AFEEEE dashed;
   }
 .profile-info{
   padding-left: 30px;
@@ -51,14 +52,14 @@ html {
   margin-bottom: 70px;
 }
 .contacts-title {
-  color: #AFEEEE;
+  color:  rgba(175, 238, 238, 0.877); 
   margin-bottom: 13px;
   font-size: 16px;
   font-weight: 400;
   }
 .contacts-text {
   padding-left: 24px;
-  color: #AFEEEE;
+  color:  rgba(175, 238, 238, 0.877);
   text-decoration: none;
   padding-left: 24px;
   line-height: 20px;
@@ -67,7 +68,7 @@ html {
 .contacts-item {
   padding-bottom: 24px;
   padding-top: 24px;
-  border-bottom: 2px #AFEEEE dashed;
+  border-bottom: 1px #AFEEEE dashed;
   }
 .address {
   font-style: normal;
